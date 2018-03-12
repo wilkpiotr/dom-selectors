@@ -1,0 +1,2 @@
+# FrontEndVanillaJs
+Pure JavaScript projects
