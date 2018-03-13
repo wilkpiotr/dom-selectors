@@ -1,2 +1,2 @@
-# FrontEndVanillaJs
-Pure JavaScript projects
+# DOM selectors playground
+Lesson - how to use DOM selectors
