@@ -51,3 +51,16 @@ window.pandominium = () => {
   window.setWantedBgColor('predator', 'green')
   window.setWantedBgColor('other', 'red')
 }
+
+cloneHeader = () => {
+  const body = document.querySelector('body');
+  const h1 = document.querySelector('h1');
+  const hOne = h1.cloneNode(true);
+  const hTwo = h1.cloneNode(true);
+  const hThree = h1.cloneNode(true);
+  const hFour = h1.cloneNode(true);
+  body.insertBefore(hOne, h1)
+  body.insertBefore(hTwo, h1)
+  body.insertBefore(hThree, h1)
+  body.insertBefore(hFour, h1)
+}
